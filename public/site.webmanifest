@@ -1,0 +1,21 @@
+{
+  "name": "Garage Bouaïla",
+  "short_name": "Garage Bouaïla",
+  "description": "Garage Bouaïla à Safi — entretien, diagnostic et réparation automobile.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#E30613",
+  "icons": [
+    {
+      "src": "/images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
