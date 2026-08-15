@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { imagePath } from "@/lib/images";
 import LogoMark from "./LogoMark";
 
 const trust = [
@@ -13,7 +14,7 @@ export default function Hero() {
     <section id="top" className="relative min-h-screen overflow-hidden pt-24">
       <div className="absolute inset-0" aria-hidden>
         <Image
-          src="/images/hero/garage-hero.jpg"
+          src={imagePath("/images/hero/garage-hero.jpg")}
           alt="Garage Bouaïla - atelier automobile professionnel à Safi"
           fill
           priority

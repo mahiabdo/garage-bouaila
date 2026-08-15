@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { imagePath } from "@/lib/images";
 import Counter from "./Counter";
 
 const stats: Array<[number, string, number]> = [
@@ -15,7 +16,7 @@ export default function About() {
         <div className="grid gap-4 sm:grid-cols-5">
           <div className="image-card h-[520px] sm:col-span-3">
             <Image
-              src="/images/garage/mechanic.jpg"
+              src={imagePath("/images/garage/mechanic.jpg")}
               alt="Mécanicien professionnel travaillant sur un véhicule"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
@@ -25,8 +26,8 @@ export default function About() {
           </div>
           <div className="grid gap-4 sm:col-span-2">
             {[
-              ["/images/garage/tools.jpg", "Outils automobiles professionnels"],
-              ["/images/garage/diagnostic.jpg", "Équipement de diagnostic moderne"],
+              [imagePath("/images/garage/tools.jpg"), "Outils automobiles professionnels"],
+              [imagePath("/images/garage/diagnostic.jpg"), "Équipement de diagnostic moderne"],
             ].map(([src, alt]) => (
               <div key={src} className="image-card h-[252px]">
                 <Image src={src} alt={alt} fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover" />

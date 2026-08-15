@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
+import { imagePath } from "@/lib/images";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://example.github.io"),
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Garage Bouaïla | Entretien & Réparation Automobile",
     description: "Atelier automobile professionnel à Safi, spécialisé Volkswagen et mécanique générale.",
-    images: ["/images/hero/garage-hero.jpg"],
+    images: [imagePath("/images/hero/garage-hero.jpg")],
     locale: "fr_MA",
     type: "website",
   },

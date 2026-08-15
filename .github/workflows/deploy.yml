@@ -39,6 +39,7 @@ jobs:
       - name: Build static site
         run: pnpm build
         env:
+          NEXT_PUBLIC_BASE_PATH: /garage-bouaila
           NEXT_PUBLIC_SITE_URL: https://mahiabdo.github.io/garage-bouaila/
 
       - name: Setup Pages
