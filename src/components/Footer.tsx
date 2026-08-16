@@ -37,16 +37,12 @@ export default function Footer() {
         <div className="mx-auto max-w-4xl">
           <div className="mb-3 h-px w-full bg-[var(--border)]" />
           <p>© 2026 Garage Bouaïla — Tous droits réservés.</p>
-          <p className="mt-3 text-[var(--text-soft)]">Site développé &amp; géré par</p>
-          <p className="text-base font-semibold text-[var(--text)]">Mahi Abdalmtlib</p>
+          <p className="mt-3 text-[var(--text-soft)]">Site web développé et maintenu par</p>
+          <p className="text-base font-semibold text-[var(--text)]">Mahi Abdelmotalib</p>
           <div className="mt-3 flex flex-col items-center gap-1 text-[var(--text-soft)] sm:flex-row sm:justify-center sm:gap-6">
-            <a href="mailto:mahi.abdalmtlib@gmail.com" className="inline-flex items-center gap-2 transition-colors hover:text-[var(--text)]">
+            <a href="mailto:mahi.abdalmtlb@gmail.com" className="inline-flex items-center gap-2 transition-colors hover:text-[var(--text)]">
               <span aria-hidden="true">📧</span>
-              <span>mahi.abdalmtlib@gmail.com</span>
-            </a>
-            <a href="tel:+212622132696" className="inline-flex items-center gap-2 transition-colors hover:text-[var(--text)]">
-              <span aria-hidden="true">📞</span>
-              <span>06 22 13 26 96</span>
+              <span>mahi.abdalmtlb@gmail.com</span>
             </a>
           </div>
         </div>

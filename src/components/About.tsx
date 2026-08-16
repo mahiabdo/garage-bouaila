@@ -37,19 +37,28 @@ export default function About() {
         </div>
 
         <div>
-          <p className="eyebrow">À propos du Garage Bouaïla</p>
-          <h2 className="mt-4 text-4xl font-black leading-tight text-[var(--text)] sm:text-5xl">
-            Un atelier sérieux pour une mécanique fiable.
+          <p className="eyebrow">À propos du Garage Bouaila</p>
+          <h2 id="garage-information" className="mt-4 text-4xl font-black leading-tight text-[var(--text)] sm:text-5xl">
+            Garage automobile à Safi, spécialisé Volkswagen et mécanique générale.
           </h2>
           <p className="mt-6 text-lg leading-8 text-[var(--text-soft)]">
-            Garage Bouaïla est un atelier spécialisé dans l&apos;entretien et la réparation
-            automobile à Safi. Notre objectif est de fournir un service rapide,
-            fiable et professionnel avec des équipements modernes.
+            Garage Bouaila est un garage automobile situé à Safi, au Maroc. Il intervient
+            dans l&apos;entretien, le diagnostic et la réparation des véhicules Volkswagen,
+            ainsi que dans la mécanique automobile générale pour les voitures en circulation
+            à Safi et dans la région.
           </p>
           <p className="mt-4 leading-7 text-[var(--text-soft)]">
-            L&apos;équipe travaille avec méthode: diagnostic clair, pièces de qualité,
-            intervention propre et attention réelle à la satisfaction client.
+            Le garage propose des interventions de diagnostic automobile à Safi,
+            d&apos;entretien voiture, de réparation mécanique, de freinage, de climatisation,
+            de vidange et de maintenance pour assurer un service fiable et professionnel.
           </p>
+
+          <ul className="mt-6 grid gap-3 text-sm text-[var(--text-soft)] sm:grid-cols-2">
+            <li className="flex items-start gap-2"><span aria-hidden="true">•</span><span>Garage automobile à Safi</span></li>
+            <li className="flex items-start gap-2"><span aria-hidden="true">•</span><span>Garage Volkswagen à Safi</span></li>
+            <li className="flex items-start gap-2"><span aria-hidden="true">•</span><span>Réparation automobile à Safi</span></li>
+            <li className="flex items-start gap-2"><span aria-hidden="true">•</span><span>Diagnostic automobile à Safi</span></li>
+          </ul>
 
           <div className="mt-8 grid grid-cols-2 gap-4">
             {stats.map(([value, label, duration]) => (

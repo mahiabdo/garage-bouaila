@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import BeforeAfter from "@/components/BeforeAfter";
 import ContactForm from "@/components/ContactForm";
+import FaqSection from "@/components/FaqSection";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import LocationMap from "@/components/LocationMap";
@@ -18,6 +19,7 @@ export default function Home() {
       <BeforeAfter />
       <Gallery />
       <Reviews />
+      <FaqSection />
       <LocationMap />
       <ContactForm />
     </>
